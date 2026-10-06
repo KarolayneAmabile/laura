@@ -1,0 +1,13 @@
+name = "laura-cegs"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[routes]]
+pattern = "laura.karolayne.com"
+custom_domain = true
+
+# Permite importar o avatar como binário dentro do worker
+[[rules]]
+type = "Data"
+globs = ["**/*.png"]
+fallthrough = true

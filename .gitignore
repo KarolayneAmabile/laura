@@ -1,0 +1,23 @@
+# Wrangler (cache local, estado do dev e builds temporários)
+.wrangler/
+
+# Dependências
+node_modules/
+
+# Segredos locais
+.dev.vars
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+.vscode/
+.idea/
+
+CLAUDE.md
